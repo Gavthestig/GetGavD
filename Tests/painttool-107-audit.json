@@ -1,0 +1,67 @@
+{
+  "apply": {
+    "rva": 4369168,
+    "instructions": 401,
+    "identical_normalized": true
+  },
+  "mode": 27071856,
+  "submode": 27071860,
+  "apply_callees": [
+    [
+      "0x2bd130",
+      "0x2be7e0",
+      true
+    ],
+    [
+      "0x7fbf00",
+      "0x7ff7a0",
+      true
+    ],
+    [
+      "0x7b8cf0",
+      "0x7bc5a0",
+      true
+    ],
+    [
+      "0x7c0260",
+      "0x7c3b10",
+      true
+    ],
+    [
+      "0x75e6f0",
+      "0x761c50",
+      true
+    ],
+    [
+      "0x6d7910",
+      "0x6db180",
+      true
+    ],
+    [
+      "0x2b22e0",
+      "0x2b3980",
+      true
+    ],
+    [
+      "0x429f00",
+      "0x42b090",
+      true
+    ],
+    [
+      "0x121a890",
+      "0x12210b0",
+      true
+    ]
+  ],
+  "construct": {
+    "rva": 4338368,
+    "instructions": 41,
+    "identical_normalized": true
+  },
+  "vtable": 21875392,
+  "update": {
+    "rva": 4348704,
+    "instructions": 367,
+    "identical_normalized": true
+  }
+}

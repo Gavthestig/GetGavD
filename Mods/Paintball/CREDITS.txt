@@ -1,0 +1,15 @@
+ColourForge Paintball - Made by GetGavd
+
+Paintball Gun by fanjaztic
+https://sketchfab.com/3d-models/paintball-gun-99995f13c0af4a658a4c0505762e39c4
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Changes: format/material conversion, scale/axis/grip attachment, game icon.
+Model contains no original reload animation. Refill visual implemented in mod.
+Original ColourForge picker reused. Ball/splat meshes and mod scripts created for this mod.
+
+Low-Poly M18 Smoke Grenade by Matrixxy
+https://sketchfab.com/3d-models/low-poly-m18-smoke-grenade-a9e00826f21a490fbc252a4938e4b0a6
+Granade - Low Poly by Figusorasu
+https://sketchfab.com/3d-models/granade-low-poly-fb74c213f5bd49aaad2e974eda250f11
+Both models CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Changes: material atlas, game format and grip attachment, scale, held/thrown versions and icons.

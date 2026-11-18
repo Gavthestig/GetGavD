@@ -1,0 +1,23 @@
+{
+  "toolList": [
+    {
+      "uuid": "c7cc62bc-0242-4c3e-a20b-6d7995375506",
+      "previewRenderable": "$CONTENT_DATA/Objects/Vaporator/vaporator.rend",
+      "previewRotation": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "script": {
+        "class": "VaporatorDragTool",
+        "file": "$CONTENT_DATA/Scripts/VaporatorDragTool.lua"
+      }
+    }
+  ]
+}

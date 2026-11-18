@@ -1,0 +1,1 @@
+Use the complete release ZIP for installation. These scripts are provided for review; they require the Payload directory from that ZIP. They back up replaced files and reject unsupported game executable fingerprints. Read Docs/ColourForge.md before installing.

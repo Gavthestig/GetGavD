@@ -1,0 +1,23 @@
+{
+  "toolList": [
+    {
+      "previewRenderable": "$CONTENT_DATA/Objects/Vaporator/vaporator.rend",
+      "previewRotation": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "uuid": "9711c24d-e816-4f23-a57a-a56948476383",
+      "script": {
+        "class": "PaintStudio",
+        "file": "$CONTENT_DATA/Scripts/PaintStudio.lua"
+      }
+    }
+  ]
+}

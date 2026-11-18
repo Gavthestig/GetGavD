@@ -1,0 +1,28 @@
+name: Mod bug report
+description: Report a reproducible problem with a GetGavD mod
+body:
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Mod
+      options:
+        - ColourForge
+        - Paintball and Grenades
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Exact game version and downloaded mod version
+    validations:
+      required: true
+  - type: input
+    id: mode
+    attributes:
+      label: Game mode
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps, expected result and actual error
+    validations:
+      required: true

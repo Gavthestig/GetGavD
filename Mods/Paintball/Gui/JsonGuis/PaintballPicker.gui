@@ -1,0 +1,1372 @@
+{
+  "Type": "Widget",
+  "Skin": "PanelEmpty",
+  "Name": "Picker",
+  "x": 0,
+  "y": 0,
+  "width": 660,
+  "height": 510,
+  "Childs": [
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "Frame09",
+      "x": 0,
+      "y": 0,
+      "width": 660,
+      "height": 510,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/Frame09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "WheelWell09",
+      "x": 16,
+      "y": 53,
+      "width": 258,
+      "height": 258,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/WheelWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "ControlsWell09",
+      "x": 287,
+      "y": 54,
+      "width": 348,
+      "height": 250,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/ControlsWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "Slider1Well09",
+      "x": 321,
+      "y": 63,
+      "width": 228,
+      "height": 32,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/RailWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "Value1Well09",
+      "x": 552,
+      "y": 63,
+      "width": 81,
+      "height": 34,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/InputWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "Slider2Well09",
+      "x": 321,
+      "y": 115,
+      "width": 228,
+      "height": 32,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/RailWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "Value2Well09",
+      "x": 552,
+      "y": 115,
+      "width": 81,
+      "height": 34,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/InputWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "Slider3Well09",
+      "x": 321,
+      "y": 167,
+      "width": 228,
+      "height": 32,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/RailWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "Value3Well09",
+      "x": 552,
+      "y": 167,
+      "width": 81,
+      "height": 34,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/InputWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "BrightnessWell09",
+      "x": 321,
+      "y": 220,
+      "width": 228,
+      "height": 32,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/RailWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "PreviewRim09",
+      "x": 552,
+      "y": 217,
+      "width": 81,
+      "height": 71,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/InputWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "HexWell09",
+      "x": 352,
+      "y": 260,
+      "width": 186,
+      "height": 36,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/InputWell09.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "Title",
+      "x": 84,
+      "y": 13,
+      "width": 530,
+      "height": 31,
+      "Childs": [],
+      "Caption": "COLOURFORGE PAINTBALL / GETGAVD",
+      "FontName": "SM_Button",
+      "TextAlign": "Left"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Wheel",
+      "x": 25,
+      "y": 62,
+      "width": 240,
+      "height": 240,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "WheelImage",
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 240,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/HsvWheel09.png",
+          "NeedMouse": false
+        },
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "WheelCursor",
+          "x": 115,
+          "y": 115,
+          "width": 14,
+          "height": 14,
+          "Childs": [],
+          "NeedMouse": false,
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/WheelCursor09.png"
+        },
+        {
+          "Type": "Widget",
+          "Skin": "PanelEmpty",
+          "Name": "WheelEdge",
+          "x": 240,
+          "y": 240,
+          "width": 1,
+          "height": 1,
+          "Childs": [],
+          "NeedMouse": false
+        }
+      ],
+      "NeedMouse": true,
+      "Cursor": "Draggable",
+      "onPressed": "cl_pickerDrag",
+      "onDrag": "cl_pickerDrag"
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "Label1",
+      "x": 295,
+      "y": 65,
+      "width": 25,
+      "height": 28,
+      "Childs": [],
+      "Caption": "R",
+      "FontName": "SM_Button"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Slider1",
+      "x": 325,
+      "y": 65,
+      "width": 220,
+      "height": 28,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Slider1Image",
+          "x": 0,
+          "y": 5,
+          "width": 220,
+          "height": 18,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/RedRamp.png",
+          "NeedMouse": false
+        },
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Slider1Cursor",
+          "x": 0,
+          "y": 1,
+          "width": 9,
+          "height": 28,
+          "Childs": [],
+          "NeedMouse": false,
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/Handle09.png"
+        },
+        {
+          "Type": "Widget",
+          "Skin": "PanelEmpty",
+          "Name": "Slider1Edge",
+          "x": 220,
+          "y": 28,
+          "width": 1,
+          "height": 1,
+          "Childs": [],
+          "NeedMouse": false
+        }
+      ],
+      "NeedMouse": true,
+      "Cursor": "Draggable",
+      "onPressed": "cl_pickerDrag",
+      "onDrag": "cl_pickerDrag"
+    },
+    {
+      "Type": "EditBox",
+      "Skin": "EditBoxEmpty",
+      "Name": "Value1",
+      "x": 555,
+      "y": 65,
+      "width": 75,
+      "height": 30,
+      "Childs": [],
+      "Caption": "0",
+      "FontName": "SM_Button",
+      "NeedMouse": true,
+      "NeedKey": true,
+      "MaxTextLength": 3,
+      "onTextEnter": "cl_number",
+      "TextAlign": "Center",
+      "TextColour": "0.88 0.96 1 1"
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "Label2",
+      "x": 295,
+      "y": 117,
+      "width": 25,
+      "height": 28,
+      "Childs": [],
+      "Caption": "G",
+      "FontName": "SM_Button"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Slider2",
+      "x": 325,
+      "y": 117,
+      "width": 220,
+      "height": 28,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Slider2Image",
+          "x": 0,
+          "y": 5,
+          "width": 220,
+          "height": 18,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/GreenRamp.png",
+          "NeedMouse": false
+        },
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Slider2Cursor",
+          "x": 0,
+          "y": 1,
+          "width": 9,
+          "height": 28,
+          "Childs": [],
+          "NeedMouse": false,
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/Handle09.png"
+        },
+        {
+          "Type": "Widget",
+          "Skin": "PanelEmpty",
+          "Name": "Slider2Edge",
+          "x": 220,
+          "y": 28,
+          "width": 1,
+          "height": 1,
+          "Childs": [],
+          "NeedMouse": false
+        }
+      ],
+      "NeedMouse": true,
+      "Cursor": "Draggable",
+      "onPressed": "cl_pickerDrag",
+      "onDrag": "cl_pickerDrag"
+    },
+    {
+      "Type": "EditBox",
+      "Skin": "EditBoxEmpty",
+      "Name": "Value2",
+      "x": 555,
+      "y": 117,
+      "width": 75,
+      "height": 30,
+      "Childs": [],
+      "Caption": "0",
+      "FontName": "SM_Button",
+      "NeedMouse": true,
+      "NeedKey": true,
+      "MaxTextLength": 3,
+      "onTextEnter": "cl_number",
+      "TextAlign": "Center",
+      "TextColour": "0.88 0.96 1 1"
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "Label3",
+      "x": 295,
+      "y": 169,
+      "width": 25,
+      "height": 28,
+      "Childs": [],
+      "Caption": "B",
+      "FontName": "SM_Button"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Slider3",
+      "x": 325,
+      "y": 169,
+      "width": 220,
+      "height": 28,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Slider3Image",
+          "x": 0,
+          "y": 5,
+          "width": 220,
+          "height": 18,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/BlueRamp.png",
+          "NeedMouse": false
+        },
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Slider3Cursor",
+          "x": 0,
+          "y": 1,
+          "width": 9,
+          "height": 28,
+          "Childs": [],
+          "NeedMouse": false,
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/Handle09.png"
+        },
+        {
+          "Type": "Widget",
+          "Skin": "PanelEmpty",
+          "Name": "Slider3Edge",
+          "x": 220,
+          "y": 28,
+          "width": 1,
+          "height": 1,
+          "Childs": [],
+          "NeedMouse": false
+        }
+      ],
+      "NeedMouse": true,
+      "Cursor": "Draggable",
+      "onPressed": "cl_pickerDrag",
+      "onDrag": "cl_pickerDrag"
+    },
+    {
+      "Type": "EditBox",
+      "Skin": "EditBoxEmpty",
+      "Name": "Value3",
+      "x": 555,
+      "y": 169,
+      "width": 75,
+      "height": 30,
+      "Childs": [],
+      "Caption": "0",
+      "FontName": "SM_Button",
+      "NeedMouse": true,
+      "NeedKey": true,
+      "MaxTextLength": 3,
+      "onTextEnter": "cl_number",
+      "TextAlign": "Center",
+      "TextColour": "0.88 0.96 1 1"
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "VLabel",
+      "x": 285,
+      "y": 222,
+      "width": 40,
+      "height": 28,
+      "Childs": [],
+      "Caption": "V",
+      "FontName": "SM_Button"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Brightness",
+      "x": 325,
+      "y": 222,
+      "width": 220,
+      "height": 28,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "BrightnessImage",
+          "x": 0,
+          "y": 5,
+          "width": 220,
+          "height": 18,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/ValueRamp.png",
+          "NeedMouse": false
+        },
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "BrightnessCursor",
+          "x": 0,
+          "y": 1,
+          "width": 9,
+          "height": 28,
+          "Childs": [],
+          "NeedMouse": false,
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/Handle09.png"
+        },
+        {
+          "Type": "Widget",
+          "Skin": "PanelEmpty",
+          "Name": "BrightnessEdge",
+          "x": 220,
+          "y": 28,
+          "width": 1,
+          "height": 1,
+          "Childs": [],
+          "NeedMouse": false
+        }
+      ],
+      "NeedMouse": true,
+      "Cursor": "Draggable",
+      "onPressed": "cl_pickerDrag",
+      "onDrag": "cl_pickerDrag"
+    },
+    {
+      "Type": "Widget",
+      "Skin": "WhiteSkin",
+      "Name": "Preview",
+      "x": 555,
+      "y": 220,
+      "width": 75,
+      "height": 65,
+      "Childs": [
+        {
+          "Type": "Widget",
+          "Skin": "WhiteSkin",
+          "Name": "PreviewShine09",
+          "x": 2,
+          "y": 2,
+          "width": 71,
+          "height": 2,
+          "Childs": [],
+          "Colour": "1 1 1 0.3",
+          "NeedMouse": false
+        }
+      ],
+      "Colour": "0.2 0.9 0.8 1",
+      "NeedMouse": false
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "HexLabel",
+      "x": 300,
+      "y": 264,
+      "width": 50,
+      "height": 30,
+      "Childs": [],
+      "Caption": "HEX",
+      "FontName": "SM_Button"
+    },
+    {
+      "Type": "EditBox",
+      "Skin": "EditBoxEmpty",
+      "Name": "Hex",
+      "x": 355,
+      "y": 262,
+      "width": 180,
+      "height": 32,
+      "Childs": [],
+      "Caption": "30E8DC",
+      "NeedMouse": true,
+      "NeedKey": true,
+      "MaxTextLength": 6,
+      "FontName": "SM_Button",
+      "onTextEnter": "cl_pickerHex",
+      "TextAlign": "Center",
+      "TextColour": "0.88 0.96 1 1"
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "HSV",
+      "x": 25,
+      "y": 312,
+      "width": 610,
+      "height": 28,
+      "Childs": [],
+      "Caption": "H 0   S 0%   V 100%",
+      "FontName": "SM_Button",
+      "TextAlign": "Center",
+      "TextColour": "0.58 0.74 0.82 1"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cff0000",
+      "x": 25,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cff0000Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.0 0.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cff6d00",
+      "x": 69,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cff6d00Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.42745098039215684 0.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cffdb00",
+      "x": 113,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cffdb00Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.8588235294117647 0.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cb6ff00",
+      "x": 157,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cb6ff00Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.7137254901960784 1.0 0.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "C49ff00",
+      "x": 201,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "C49ff00Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.28627450980392155 1.0 0.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "C00ff24",
+      "x": 245,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "C00ff24Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.0 1.0 0.1411764705882353 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "C00ff92",
+      "x": 289,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "C00ff92Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.0 1.0 0.5725490196078431 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "C00ffff",
+      "x": 333,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "C00ffffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.0 1.0 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "C0092ff",
+      "x": 377,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "C0092ffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.0 0.5725490196078431 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "C0024ff",
+      "x": 421,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "C0024ffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.0 0.1411764705882353 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "C4900ff",
+      "x": 465,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "C4900ffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.28627450980392155 0.0 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cb600ff",
+      "x": 509,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cb600ffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.7137254901960784 0.0 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cff00db",
+      "x": 553,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cff00dbFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.0 0.8588235294117647 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cff006d",
+      "x": 597,
+      "y": 347,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cff006dFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.0 0.42745098039215684 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cffb2b2",
+      "x": 25,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cffb2b2Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.6980392156862745 0.6980392156862745 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cffd3b2",
+      "x": 69,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cffd3b2Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.8274509803921568 0.6980392156862745 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cfff4b2",
+      "x": 113,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cfff4b2Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.9568627450980393 0.6980392156862745 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Ce9ffb2",
+      "x": 157,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Ce9ffb2Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.9137254901960784 1.0 0.6980392156862745 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cc8ffb2",
+      "x": 201,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cc8ffb2Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.7843137254901961 1.0 0.6980392156862745 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cb2ffbd",
+      "x": 245,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cb2ffbdFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.6980392156862745 1.0 0.7411764705882353 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cb2ffde",
+      "x": 289,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cb2ffdeFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.6980392156862745 1.0 0.8705882352941177 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cb2ffff",
+      "x": 333,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cb2ffffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.6980392156862745 1.0 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cb2deff",
+      "x": 377,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cb2deffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.6980392156862745 0.8705882352941177 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cb2bdff",
+      "x": 421,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cb2bdffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.6980392156862745 0.7411764705882353 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cc8b2ff",
+      "x": 465,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cc8b2ffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.7843137254901961 0.6980392156862745 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Ce9b2ff",
+      "x": 509,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Ce9b2ffFace09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "0.9137254901960784 0.6980392156862745 1.0 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cffb2f4",
+      "x": 553,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cffb2f4Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.6980392156862745 0.9568627450980393 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "Button",
+      "Skin": "PanelEmpty",
+      "Name": "Cffb2d3",
+      "x": 597,
+      "y": 387,
+      "width": 38,
+      "height": 34,
+      "Childs": [
+        {
+          "Type": "ImageBox",
+          "Skin": "ImageBox",
+          "Name": "Cffb2d3Face09",
+          "x": 0,
+          "y": 0,
+          "width": 38,
+          "height": 34,
+          "Childs": [],
+          "ImageTexture": "$CONTENT_DATA/Gui/Textures/SwatchFace09.png",
+          "NeedMouse": false,
+          "NeedKey": false,
+          "Colour": "1.0 0.6980392156862745 0.8274509803921568 1"
+        }
+      ],
+      "onClick": "cl_pickerButton"
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "Help",
+      "x": 25,
+      "y": 430,
+      "width": 610,
+      "height": 24,
+      "Childs": [],
+      "Caption": "LMB FIRE   /   R REFILL   /   Q COLOURS",
+      "FontName": "SM_Button",
+      "TextAlign": "Center",
+      "TextColour": "0.69 0.79 0.85 1"
+    },
+    {
+      "Type": "ImageBox",
+      "Skin": "ImageBox",
+      "Name": "HeaderGun09",
+      "x": 24,
+      "y": 1,
+      "width": 58,
+      "height": 50,
+      "Childs": [],
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/PaintballIcon.png",
+      "NeedMouse": false,
+      "NeedKey": false
+    },
+    {
+      "Type": "TextBox",
+      "Skin": "TextBox",
+      "Name": "CloseHint092",
+      "x": 130,
+      "y": 465,
+      "width": 400,
+      "height": 36,
+      "Caption": "COLOUR APPLIES LIVE  /  Q OR ESC TO CLOSE",
+      "FontName": "SM_Button",
+      "TextAlign": "Center",
+      "TextColour": "0.6 0.8 0.85 1",
+      "NeedMouse": false
+    }
+  ],
+  "Anchor": "Center",
+  "NeedMouse": true
+}

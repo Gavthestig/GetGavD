@@ -1,0 +1,17 @@
+{
+  "684cda5f-deef-4cab-81a8-ed95f02d9b87": {
+    "title": "ColourForge Paintball",
+    "upperCaseTitle": "COLOURFORGE PAINTBALL",
+    "description": "Made by GetGavd. LMB shoots; R refills hopper; Q colours. No damage. Paint marks last two minutes."
+  },
+  "95f6917d-3194-43f8-ade1-cb465fabd2fd": {
+    "title": "ColourForge Paint Grenade",
+    "upperCaseTitle": "PAINT GRENADE",
+    "description": "Made by GetGavd. LMB throw. Q chooses splash colour. 2.5 second fuse; harmless paint burst."
+  },
+  "13d2d3f6-d38a-45d6-93d2-3880b20d7a43": {
+    "title": "ColourForge Smoke Grenade",
+    "upperCaseTitle": "SMOKE GRENADE",
+    "description": "Made by GetGavd. LMB throw; Q smoke colour. 2.5-second fuse and 16-second coloured smoke cloud. No damage."
+  }
+}

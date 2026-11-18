@@ -1,0 +1,6 @@
+Build from a Visual Studio x64 Native Tools command prompt:
+cl /LD /O2 /MD /I MinHook\include ColourForge-Bridge.cpp MinHook\src\buffer.c MinHook\src\hook.c MinHook\src\trampoline.c MinHook\src\hde\hde64.c /link user32.lib /OUT:ColourForge.dll
+
+The source contains exact addresses and exact executable fingerprints for 1.0.6.889 and 1.0.7a.903.
+Re-audit addresses and calling conventions before supporting another game build.
+MinHook/HDE copyright and licence notices are retained in their supplied sources.

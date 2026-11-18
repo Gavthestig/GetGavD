@@ -1,0 +1,23 @@
+{
+  "toolList": [
+    {
+      "uuid": "9711c24d-e816-4f23-a57a-a56948476383",
+      "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_painttool_preview.rend",
+      "previewRotation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0
+      ],
+      "script": {
+        "class": "PaintStudio",
+        "file": "$CONTENT_DATA/Scripts/PaintStudio.lua"
+      }
+    }
+  ]
+}

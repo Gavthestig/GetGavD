@@ -1,0 +1,7 @@
+ColourForge — Made by GetGavd
+
+Vaporator by Al Garcia (AlsGraphics)
+Source: https://sketchfab.com/3d-models/vaporator-7d8d85bb768f4b32abe8a5903774939b
+Licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Changes: game format conversion, rigid attachment to paint tool grip, scale/orientation, emissive accent paint mask and ASG conversion.
+Inventory/header icon rendered from the supplied Vaporator model.

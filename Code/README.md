@@ -1,0 +1,1 @@
+Native Windows x64 ColourForge bridge source. Build instructions are in BUILD.txt; MinHook source and notices are under Dependencies. Adjust the MinHook include/source paths to that directory when building from this repository. Keep the exact executable fingerprint and routine checks enabled. A successful compile does not demonstrate in-game compatibility.

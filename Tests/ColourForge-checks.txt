@@ -1,0 +1,18 @@
+ColourForge 1.1 - checks on 18 November 2026
+
+Existing Workshop item ID 3834631547 preserved. Description schema stays version 2.
+512x512 PNG preview, 440768 bytes, below the 1 MB uploader limit.
+Required empty shape database and tool database present.
+Companion DLL matches the locally installed dual-build bridge.
+Installer accepts the exact 1.0.6.889 and 1.0.7a.903 executable fingerprints.
+1.0.7a fixture install succeeded, including an existing Microsoft runtime backup.
+Uninstall restored all fixture files byte-for-byte and removed installed payload files.
+1.0.6 executable preflight passed. Previous release installer tests covered that build.
+Native paint function and dependent entry blocks compared across supported builds.
+Mod Tool UI validation was not completed: its window closed and did not reopen.
+Actual painting on 1.0.7a and multiplayer remain unverified.
+
+Named-module distribution check: ColourForge.dll is a Windows x64 DLL.
+A 1.0.7a fixture with the previous Native-Drag-Bridge.dll was upgraded.
+Setup installed ColourForge.dll and removed the archived legacy module.
+Uninstall restored the previous module and all original files byte-for-byte.

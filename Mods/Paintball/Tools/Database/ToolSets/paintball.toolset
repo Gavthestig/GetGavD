@@ -1,0 +1,61 @@
+{
+  "toolList": [
+    {
+      "uuid": "684cda5f-deef-4cab-81a8-ed95f02d9b87",
+      "previewRenderable": "$CONTENT_DATA/Objects/Paintball/gun.rend",
+      "previewRotation": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "script": {
+        "class": "ColourForgePaintball",
+        "file": "$CONTENT_DATA/Scripts/ColourForgePaintball.lua"
+      }
+    },
+    {
+      "uuid": "95f6917d-3194-43f8-ade1-cb465fabd2fd",
+      "previewRenderable": "$CONTENT_DATA/Objects/Grenades/paint-held.rend",
+      "previewRotation": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "script": {
+        "class": "ColourForgePaintGrenade",
+        "file": "$CONTENT_DATA/Scripts/ColourForgePaintGrenade.lua"
+      }
+    },
+    {
+      "uuid": "13d2d3f6-d38a-45d6-93d2-3880b20d7a43",
+      "previewRenderable": "$CONTENT_DATA/Objects/Grenades/smoke-held.rend",
+      "previewRotation": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "script": {
+        "class": "ColourForgeSmokeGrenade",
+        "file": "$CONTENT_DATA/Scripts/ColourForgeSmokeGrenade.lua"
+      }
+    }
+  ]
+}
