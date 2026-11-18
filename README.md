@@ -22,13 +22,38 @@ Pick a colour and paint with your own gun. Changes apply live; no “Ready to pa
 
 *Layout preview rendered from the current GUI files; the in-game appearance can differ.*
 
-### Installation
+## How to download and enable
 
-1. Close Scrap Mechanic. Download and extract the **complete installer ZIP** above.
-2. Run **Install.cmd**. Setup finds your Steam installation or asks for the game folder.
-3. Start the game normally and find **ColourForge** in Tools.
+There are 2 ways to install or update the ColourForge module:
 
-Players do not need Visual Studio or Python. Setup requires internet access to download QuestionableM’s official DLL loader if missing. Keep the backup folder and use **Uninstall.cmd** before updating the game or changing other modifications to the same files.
+<details>
+<summary>Complete installer / SM-DLL-Injector (recommended)</summary>
+
+1. Close Scrap Mechanic.
+2. Download [ColourForge-1.1-Share.zip](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-1.1-Share.zip) and extract the complete ZIP to a folder.
+3. Run **Install.cmd**. Setup finds your Steam installation or asks for the game folder.
+4. Start Scrap Mechanic normally and find **ColourForge** in Tools.
+
+The installer registers the gun, GUI and icons, installs **ColourForge.dll** into `Scrap Mechanic/Release/DLLModules`, and obtains the official [SM-DLL-Injector v1.8](https://github.com/QuestionableM/SM-DLL-Injector/releases/tag/v1.8) if needed. Internet access is required for that download. Players do not need Visual Studio or Python.
+
+Keep the backup folder. Run **Uninstall.cmd** before updating the game or changing other modifications to the same files.
+
+</details>
+
+<details>
+<summary>Manual DLL update (existing complete installations)</summary>
+
+Use this option only if you already installed the complete ColourForge companion setup. A DLL alone does not include the gun, GUI, icons or Challenge registration.
+
+1. Close Scrap Mechanic.
+2. Download [ColourForge.dll](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge.dll) or [ColourForge-DLL.zip](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-DLL.zip).
+3. Replace **ColourForge.dll** in `Scrap Mechanic/Release/DLLModules`.
+4. If the older **Native-Drag-Bridge.dll** is present, move it out of `DLLModules` and keep a backup. Do not load both modules together.
+5. Start the game normally. Your existing SM-DLL-Injector installation loads the module.
+
+If the gun, GUI or icon is missing, use the complete installer instead. The old **SM-BetterPaintTool.dll** is not a ColourForge dependency.
+
+</details>
 
 **Workshop subscription alone is not a complete installation.** ColourForge needs its native painting component and game registration from the companion installer. [Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3834631547) · [Detailed setup and troubleshooting](Docs/ColourForge.md).
 
@@ -61,10 +86,3 @@ Paintballs leave temporary marks on hit surfaces and characters. Includes a colo
 
 Use the testing ZIP for **Creative local-mod testing**. The separately prepared local Challenge integration is **not a portable installer in this ZIP**. Survival and multiplayer support are unverified. [Installation and limitations](Docs/Paintball.md).
 
-## Source, issues & credits
-
-* [Native ColourForge source](Code/) · [Editable mod scripts](Mods/) · [Installer scripts](Installer/) · [Check results](Tests/) · [Changelog](CHANGELOG.md)
-* [Report a problem](https://github.com/Gavthestig/GetGavD/issues/new/choose): include the exact game version, mode, mod version and steps to reproduce.
-* [Third-party models and licences](THIRD-PARTY-NOTICES.md).
-
-Repository presentation inspired by [QuestionableM’s BetterPaintTool](https://github.com/QuestionableM/SM-BetterPaintTool). ColourForge uses its own native module; the old BetterPaintTool DLL is not a replacement for ColourForge.dll. Independent community mods, not an official Axolot product.
