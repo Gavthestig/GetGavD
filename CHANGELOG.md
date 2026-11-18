@@ -1,5 +1,12 @@
 # Changelog
 
+## ColourForge 1.1 installer icon fix — 18 November 2026
+
+* Preserves the original inventory icon sheet dimensions and all existing icon positions.
+* Copies the icon sheet in pixels to prevent Windows display scaling from shifting the icons.
+* Places the ColourForge icon in an unused cell. Existing icon pixels were checked against the originals for both the normal and Challenge inventories.
+* The complete installer ZIP on the ColourForge 1.1 release has been replaced with the corrected package. Download it again, close the game, extract it and run Install.cmd to apply the fix. The native DLL has not changed.
+
 ## ColourForge 1.1 preview — 18 November 2026
 
 * Named ColourForge.dll distribution and complete companion installer.

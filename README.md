@@ -24,6 +24,8 @@ Pick a colour and paint with your own gun. Changes apply live; no “Ready to pa
 
 ## How to download and enable
 
+**Icon fix available:** if your inventory icons became mixed up after installing ColourForge, [download the corrected complete installer](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-1.1-Share.zip) again. Close the game, extract the ZIP and run **Install.cmd**. This update fixes the installer; replacing the DLL alone does not repair the icon sheet. [Fix details](CHANGELOG.md).
+
 **New here? Follow steps 1–6 below for the Workshop version in Creative mode.** You need three things: the Workshop mod, ColourForge.dll, and the injector that loads the DLL. You do not need Visual Studio or any coding knowledge.
 
 ### 1. Download the mod from Steam Workshop
