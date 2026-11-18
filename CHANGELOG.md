@@ -1,5 +1,12 @@
 # Changelog
 
+## ColourForge gun icon lookup fix — 18 November 2026
+
+* Fixed a filename collision between the normal and Challenge inventory sheets that could show an unrelated item as ColourForge's icon.
+* Uses distinct ColourForgeInventoryIcons.png, ColourForgeChallengeIcons.png and ColourForgeToolIcon.png names.
+* Checked that both game sheets contain the gun image at the registered coordinates and that all other icon pixels and positions remain unchanged. Workshop package validation passed.
+* Re-download and run the corrected complete installer to repair existing Challenge registration and icon references. Workshop subscribers receive the mod icon asset update through Steam; the native DLL has not changed.
+
 ## ColourForge 1.1 installer icon fix — 18 November 2026
 
 * Preserves the original inventory icon sheet dimensions and all existing icon positions.
