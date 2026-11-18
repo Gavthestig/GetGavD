@@ -61,9 +61,19 @@ function AddIcon([string]$xmlRelative,[string]$imageRelative) {
  foreach ($old in @($xml.SelectNodes("//Index[@name='$u']"))) { [void]$old.ParentNode.RemoveChild($old) }
  $atlasPath=Join-Path (Split-Path $xmlPath) $group.texture
  $atlas=[Drawing.Bitmap]::new($atlasPath); $icon=[Drawing.Bitmap]::new((Join-Path $PSScriptRoot 'Payload/Mod/Gui/IconMap09.png'))
- $output=[Drawing.Bitmap]::new($atlas.Width,$atlas.Height+96);$graphics=[Drawing.Graphics]::FromImage($output)
- $graphics.DrawImageUnscaled($atlas,0,0); $graphics.DrawImage($icon,[Drawing.Rectangle]::new(0,$atlas.Height,96,96),[Drawing.Rectangle]::new(0,0,96,96),[Drawing.GraphicsUnit]::Pixel)
- $index=$xml.CreateElement('Index');$index.SetAttribute('name',$u);$frame=$xml.CreateElement('Frame');$frame.SetAttribute('point',"0 $($atlas.Height)");[void]$index.AppendChild($frame);[void]$group.AppendChild($index)
+ # Preserve atlas dimensions: resizing shifts other icons in the game renderer.
+ $used = @{}
+ foreach ($existing in @($group.SelectNodes('Index/Frame'))) { $used[[string]$existing.point] = $true }
+ $slotX = -1; $slotY = -1
+ for ($row = 0; $row + 96 -le $atlas.Height -and $slotX -lt 0; $row += 96) {
+  for ($column = 0; $column + 96 -le $atlas.Width; $column += 96) {
+   if (!$used.ContainsKey("$column $row")) { $slotX=$column; $slotY=$row; break }
+  }
+ }
+ if ($slotX -lt 0) { $atlas.Dispose(); $icon.Dispose(); throw 'No free icon cell; atlas dimensions were left unchanged.' }
+ $output=[Drawing.Bitmap]::new($atlas.Width,$atlas.Height);$graphics=[Drawing.Graphics]::FromImage($output)
+ $graphics.DrawImageUnscaled($atlas,0,0); $graphics.DrawImage($icon,[Drawing.Rectangle]::new($slotX,$slotY,96,96),[Drawing.Rectangle]::new(0,0,96,96),[Drawing.GraphicsUnit]::Pixel)
+ $index=$xml.CreateElement('Index');$index.SetAttribute('name',$u);$frame=$xml.CreateElement('Frame');$frame.SetAttribute('point',"$slotX $slotY");[void]$index.AppendChild($frame);[void]$group.AppendChild($index)
  $group.SetAttribute('texture',[IO.Path]::GetFileName($imageRelative))
  $memory=[IO.MemoryStream]::new();$output.Save($memory,[Drawing.Imaging.ImageFormat]::Png);WriteBytes $imageRelative $memory.ToArray()
  $graphics.Dispose();$atlas.Dispose();$icon.Dispose();$output.Dispose();$memory.Dispose()
