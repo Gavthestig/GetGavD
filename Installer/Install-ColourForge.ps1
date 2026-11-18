@@ -1,4 +1,4 @@
-﻿param([string]$GamePath, [switch]$ValidateOnly)
+param([string]$GamePath, [switch]$ValidateOnly)
 $ErrorActionPreference = 'Stop'
 $u = 'c7cc62bc-0242-4c3e-a20b-6d7995375506'
 $loaderHash = 'ED379E2FE4063A2E183A6240534E684E0FA942CBA061783C77BE8599F5B03E64'
@@ -72,7 +72,7 @@ function AddIcon([string]$xmlRelative,[string]$imageRelative) {
  }
  if ($slotX -lt 0) { $atlas.Dispose(); $icon.Dispose(); throw 'No free icon cell; atlas dimensions were left unchanged.' }
  $output=[Drawing.Bitmap]::new($atlas.Width,$atlas.Height);$graphics=[Drawing.Graphics]::FromImage($output)
- $graphics.DrawImageUnscaled($atlas,0,0); $graphics.DrawImage($icon,[Drawing.Rectangle]::new($slotX,$slotY,96,96),[Drawing.Rectangle]::new(0,0,96,96),[Drawing.GraphicsUnit]::Pixel)
+ $graphics.CompositingMode=[Drawing.Drawing2D.CompositingMode]::SourceCopy; $graphics.DrawImage($atlas,[Drawing.Rectangle]::new(0,0,$atlas.Width,$atlas.Height),[Drawing.Rectangle]::new(0,0,$atlas.Width,$atlas.Height),[Drawing.GraphicsUnit]::Pixel); $graphics.DrawImage($icon,[Drawing.Rectangle]::new($slotX,$slotY,96,96),[Drawing.Rectangle]::new(0,0,96,96),[Drawing.GraphicsUnit]::Pixel)
  $index=$xml.CreateElement('Index');$index.SetAttribute('name',$u);$frame=$xml.CreateElement('Frame');$frame.SetAttribute('point',"$slotX $slotY");[void]$index.AppendChild($frame);[void]$group.AppendChild($index)
  $group.SetAttribute('texture',[IO.Path]::GetFileName($imageRelative))
  $memory=[IO.MemoryStream]::new();$output.Save($memory,[Drawing.Imaging.ImageFormat]::Png);WriteBytes $imageRelative $memory.ToArray()
@@ -123,3 +123,4 @@ try {
  foreach ($item in @($manifest.ToArray()) | Select-Object -Last 100000) { $dest=Target $item.path; if ($item.existed) { Copy-Item -LiteralPath (Join-Path $backupRoot ('files/'+$item.path)) -Destination $dest -Force } elseif (Test-Path -LiteralPath $dest) { Remove-Item -LiteralPath $dest -Force } }
  throw "Setup failed and its changes were rolled back: $failure"
 } finally { if ($tempLoader -and (Test-Path -LiteralPath $tempLoader)) { Remove-Item -LiteralPath $tempLoader -Force } }
+
