@@ -61,11 +61,11 @@ function AddIcon([string]$xmlRelative,[string]$imageRelative) {
  foreach ($old in @($xml.SelectNodes("//Index[@name='$u']"))) { [void]$old.ParentNode.RemoveChild($old) }
  $atlasPath=Join-Path (Split-Path $xmlPath) $group.texture
  # Rebuild from the untouched game sheet when repairing a previous installer atlas.
- if ($group.texture -eq 'ColourForgeReleaseIcon.png') {
+ if ($group.texture -in @('ColourForgeReleaseIcon.png','ColourForgeInventoryIcons.png','ColourForgeChallengeIcons.png')) {
   $originalSheet = if ([IO.Path]::GetFileName($xmlPath) -eq 'IconMapChallenge.xml') { 'IconMapChallenge.png' } else { 'IconMap.png' }
   $atlasPath=Join-Path (Split-Path $xmlPath) $originalSheet
  }
- $atlas=[Drawing.Bitmap]::new($atlasPath); $icon=[Drawing.Bitmap]::new((Join-Path $PSScriptRoot 'Payload/Mod/Gui/IconMap09.png'))
+ $atlas=[Drawing.Bitmap]::new($atlasPath); $icon=[Drawing.Bitmap]::new((Join-Path $PSScriptRoot 'Payload/Mod/Gui/ColourForgeToolIcon.png'))
  # Preserve atlas dimensions: resizing shifts other icons in the game renderer.
  $used = @{}
  foreach ($existing in @($group.SelectNodes('Index/Frame'))) { $used[[string]$existing.point] = $true }
@@ -118,8 +118,8 @@ try {
   if ($world -notmatch $pattern) { throw 'Unrecognised Challenge inventory script; setup cancelled.' }
   $world=[regex]::Replace($world,$pattern,('$1'+"`n`t`t`tinventoryList[index] = { uuid = sm.uuid.new(`"$u`"), quantity = 1 }`n`t`t`tindex = index + 1"));WriteText $worldRelative $world
  }
- AddIcon 'Data/Gui/IconMap.xml' 'Data/Gui/ColourForgeReleaseIcon.png'
- AddIcon 'ChallengeData/Gui/IconMapChallenge.xml' 'ChallengeData/Gui/ColourForgeReleaseIcon.png'
+ AddIcon 'Data/Gui/IconMap.xml' 'Data/Gui/ColourForgeInventoryIcons.png'
+ AddIcon 'ChallengeData/Gui/IconMapChallenge.xml' 'ChallengeData/Gui/ColourForgeChallengeIcons.png'
  # Archive the compiled registry so the new tool and icons are read on next launch.
  if (Test-Path (Target 'Cache/Bundle/core_data.cbo')) { Record 'Cache/Bundle/core_data.cbo';Remove-Item -LiteralPath (Target 'Cache/Bundle/core_data.cbo') }
  Write-Host "ColourForge installed. Start the game normally. Backup: $backupRoot"

@@ -1,1 +1,1 @@
-<?xml version="1.0"?><MyGUI type="Resource" version="1.1"><Resource type="ResourceImageSet" name="PaintStudioIcons"><Group name="ItemIcons" texture="IconMap09.png" size="96 96"><Index name="c7cc62bc-0242-4c3e-a20b-6d7995375506"><Frame point="0 0"/></Index></Group></Resource></MyGUI>
+<?xml version="1.0"?><MyGUI type="Resource" version="1.1"><Resource type="ResourceImageSet" name="ColourForgeToolIcons"><Group name="ItemIcons" texture="ColourForgeToolIcon.png" size="96 96"><Index name="c7cc62bc-0242-4c3e-a20b-6d7995375506"><Frame point="0 0"/></Index></Group></Resource></MyGUI>
