@@ -24,7 +24,9 @@ Pick a colour and paint with your own gun. Changes apply live; no “Ready to pa
 
 ## How to download and enable
 
-There are 2 ways to install or update the ColourForge module:
+Choose the complete installer, the Workshop setup, or a DLL update for an existing installation:
+
+**What is the injector?** [SM-DLL-Injector by QuestionableM](https://github.com/QuestionableM/SM-DLL-Injector) loads **ColourForge.dll** when Scrap Mechanic starts. [Download the matching injector v1.8 here](https://github.com/QuestionableM/SM-DLL-Injector/releases/tag/v1.8). The complete ColourForge installer sets it up automatically if needed.
 
 <details>
 <summary>Complete installer / SM-DLL-Injector (recommended)</summary>
@@ -37,6 +39,23 @@ There are 2 ways to install or update the ColourForge module:
 The installer registers the gun, GUI and icons, installs **ColourForge.dll** into `Scrap Mechanic/Release/DLLModules`, and obtains the official [SM-DLL-Injector v1.8](https://github.com/QuestionableM/SM-DLL-Injector/releases/tag/v1.8) if needed. Internet access is required for that download. Players do not need Visual Studio or Python.
 
 Keep the backup folder. Run **Uninstall.cmd** before updating the game or changing other modifications to the same files.
+
+</details>
+
+<details>
+<summary>Steam Workshop + DLL + injector</summary>
+
+The Workshop mod supplies the gun model, textures, scripts, GUI and icons. **The DLL alone cannot supply these assets.** This route is for testing the Workshop mod in Creative; use the complete installer for the extra game-level Challenge registration.
+
+1. Subscribe to [ColourForge on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3834631547), allow Steam to finish downloading, then enable the mod in your Creative world's mod list.
+2. Close Scrap Mechanic before installing the injector or changing DLLs.
+3. Download [SM-DLL-Injector v1.8](https://github.com/QuestionableM/SM-DLL-Injector/releases/tag/v1.8) and follow the author's [installation instructions](https://github.com/QuestionableM/SM-DLL-Injector#how-to-install). Keep the original Microsoft runtime backup; do not overwrite it with the injector.
+4. Open your game installation folder in Steam: **Scrap Mechanic → Properties → Installed Files → Browse**. Open **Release**, then create **DLLModules** if it is missing.
+5. Download [ColourForge.dll](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge.dll) and put it in **Release/DLLModules**. If downloading the [DLL ZIP](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-DLL.zip), extract it first.
+6. Move an old **Native-Drag-Bridge.dll** out of DLLModules, if present. Do not load it alongside ColourForge.dll. You do not need SM-BetterPaintTool.dll.
+7. Start the game normally, load the Creative world with ColourForge enabled, and find the gun in Tools. **Q** opens its colour picker.
+
+Use the matching current Workshop mod and DLL. Supported executable fingerprints are **1.0.6.889** and **1.0.7a.903**; newer-build in-game verification and multiplayer are still pending. Workshop + DLL does not automatically register the tool in Challenge mode. For that registration, use the complete installer above. A challenge must also allow the paint tool.
 
 </details>
 

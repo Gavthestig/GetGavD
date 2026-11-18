@@ -8,6 +8,10 @@ The separate DLL-only ZIP is for manual installation and does not contain all mo
 
 ## Finding the tool
 
+For a step-by-step **Workshop + DLL + injector** setup, open [How to download and enable](../README.md#how-to-download-and-enable) on the main page and expand that option. [SM-DLL-Injector v1.8 download](https://github.com/QuestionableM/SM-DLL-Injector/releases/tag/v1.8) · [Injector author's installation instructions](https://github.com/QuestionableM/SM-DLL-Injector#how-to-install).
+
+The Workshop supplies the model, textures, scripts, GUI and icons; ColourForge.dll supplies the native painting component; the injector loads that DLL when the game starts. All three are needed for the Workshop route. Enable the Workshop mod in the Creative world's mod list. Use the complete installer for additional Challenge registration; Workshop + DLL alone does not provide it. Matching files and a supported game build are required, and this route still needs separate-installation verification.
+
 Creative and Challenge Builder: look in Tools. Survival: craft using the normal paint tool ingredients. Challenge play: the challenge must allow the paint tool. Survival and Challenge-play wiring need further testing. Registration does not bypass a challenge’s tool restrictions.
 
 ## Using it
