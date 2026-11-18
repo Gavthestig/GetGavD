@@ -1,0 +1,7 @@
+ColourForge — Made by GetGavd
+
+Workshop supplies the gun, textures and scripts. ColourForge.dll and SM-DLL-Injector are also needed.
+Step-by-step setup and downloads:
+https://github.com/Gavthestig/GetGavD#how-to-download-and-enable
+
+Challenge mode and repair of mixed-up inventory icons require the corrected complete companion installer. Replacing the DLL alone does not repair game icon sheets.
