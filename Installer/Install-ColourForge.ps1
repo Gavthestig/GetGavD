@@ -60,6 +60,11 @@ function AddIcon([string]$xmlRelative,[string]$imageRelative) {
  if (!$group) { throw "Missing icon group: $xmlRelative" }
  foreach ($old in @($xml.SelectNodes("//Index[@name='$u']"))) { [void]$old.ParentNode.RemoveChild($old) }
  $atlasPath=Join-Path (Split-Path $xmlPath) $group.texture
+ # Rebuild from the untouched game sheet when repairing a previous installer atlas.
+ if ($group.texture -eq 'ColourForgeReleaseIcon.png') {
+  $originalSheet = if ([IO.Path]::GetFileName($xmlPath) -eq 'IconMapChallenge.xml') { 'IconMapChallenge.png' } else { 'IconMap.png' }
+  $atlasPath=Join-Path (Split-Path $xmlPath) $originalSheet
+ }
  $atlas=[Drawing.Bitmap]::new($atlasPath); $icon=[Drawing.Bitmap]::new((Join-Path $PSScriptRoot 'Payload/Mod/Gui/IconMap09.png'))
  # Preserve atlas dimensions: resizing shifts other icons in the game renderer.
  $used = @{}
