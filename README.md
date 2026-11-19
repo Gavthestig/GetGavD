@@ -24,6 +24,8 @@ Pick a colour and paint with the original Scrap Mechanic paint gun. Changes appl
 
 ## How to download and enable
 
+**Gun appears but won't paint, or the eyedropper does nothing?** Close the game and rerun the [complete 1.2 installer](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge-1.2-Share.zip). It restores the injector if it has been replaced. The DLL alone is not enough. [Step-by-step repair](Docs/ColourForge.md#gun-appears-but-painting-and-the-eyedropper-do-nothing).
+
 **Icon fix available:** if your inventory icons became mixed up after installing ColourForge, [download the corrected complete installer](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge-1.2-Share.zip) again. Close the game, extract the ZIP and run **Install.cmd**. This update fixes the installer; replacing the DLL alone does not repair the icon sheet. [Fix details](CHANGELOG.md).
 
 **New here? Follow steps 1–6 below for the Workshop version in Creative mode.** You need three things: the Workshop mod, ColourForge.dll, and the injector that loads the DLL. You do not need Visual Studio or any coding knowledge.

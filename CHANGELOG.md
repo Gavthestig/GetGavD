@@ -1,5 +1,12 @@
 # Changelog
 
+## Confirmed injector repair — 19 November 2026
+
+* Diagnosed the missing-bridge message: the installed injector had been replaced with the standard Microsoft runtime, so the existing ColourForge.dll was not loading.
+* Reinstalled the checksum-verified official injector using the complete installer, retained the Microsoft runtime backup and confirmed a fresh DLL-loaded log entry.
+* User confirmed working behaviour after the repair, following the report that painting and eyedropper sampling failed. No native DLL code change was required.
+* Added clear repair instructions to the main page, troubleshooting guide and complete download. Other game modes and multiplayer still need separate verification.
+
 ## ColourForge 1.2 — original game paint gun — 19 November 2026
 
 * Uses Scrap Mechanic's installed paint gun model and matching animations instead of the Vaporator custom model.
