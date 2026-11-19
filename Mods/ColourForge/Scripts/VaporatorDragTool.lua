@@ -4,7 +4,7 @@ VaporatorDragTool = class()
 local charAnim="$GAME_DATA/Character/Char_Male/Animations/char_male_tp_painttool.rend"
 local tpAnim="$GAME_DATA/Character/Char_Tools/Char_painttool/char_painttool_tp_animlist.rend"
 local fpAnim="$GAME_DATA/Character/Char_Tools/Char_painttool/char_painttool_fp_animlist.rend"
-local model = "$CONTENT_DATA/Objects/Vaporator/vaporator.rend"
+local model = "$GAME_DATA/Character/Char_Tools/Char_painttool/char_painttool.rend"
 sm.tool.preloadRenderables({model,tpAnim,fpAnim,charAnim})
 local function validHex(s) return type(s)=="string" and #s==6 and s:match("^%x+$") end
 local function rgbHSV(hex)
@@ -19,7 +19,7 @@ local function hsvHex(h,s,v)
  return string.format("%02x%02x%02x",math.floor((r+m)*255+0.5),math.floor((g+m)*255+0.5),math.floor((b+m)*255+0.5))
 end
 function VaporatorDragTool.client_onCreate(self)
- print("[VaporatorDrag 0.8] HSV picker / Q menu / RMB erase / MMB copy")
+ print("[ColourForge 1.2] Original game paint gun / HSV picker / Q / RMB erase / MMB copy")
  self.colour="30e8dc"; self.scope="Shape"; self.palette=1
  self.equipped=false
 end

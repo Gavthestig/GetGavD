@@ -1,1 +1,1 @@
-These are editable scripts and GUI definitions. Download the complete release ZIP for models, textures, effects and particle assets. This source folder alone is not an installable mod.
+ColourForge 1.2 references the original game paint gun renderables, model and animations from your installed Scrap Mechanic game. It does not load the Vaporator model. The release ZIP contains the colour-picker GUI assets. Game meshes and animations are not bundled. Legacy custom model assets remain only for older-version compatibility.

@@ -2,7 +2,7 @@
   "toolList": [
     {
       "uuid": "c7cc62bc-0242-4c3e-a20b-6d7995375506",
-      "previewRenderable": "$CONTENT_DATA/Objects/Vaporator/vaporator.rend",
+      "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_painttool_preview.rend",
       "previewRotation": [
         -1,
         0,

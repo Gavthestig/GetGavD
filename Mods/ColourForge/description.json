@@ -1,7 +1,7 @@
 {
   "allow_add_mods": true,
   "custom_icons": true,
-  "description": "ColourForge 1.1 icon update \u2014 Made by GetGavd. Full colour wheel, RGB/HEX, drag paint, erase and eyedropper. Q: colours; middle mouse: sample. REQUIRED: matching ColourForge.dll and SM-DLL-Injector for native painting. Setup and downloads: https://github.com/Gavthestig/GetGavD#how-to-download-and-enable . Challenge mode requires the complete companion installer. Existing mixed-up icons require the corrected installer, not just a DLL update. Supports exact Windows x64 builds 1.0.6.889 and 1.0.7a.903; newer-build painting/multiplayer verification pending.",
+  "description": "ColourForge 1.2 \u2014 Made by GetGavd. Uses the original game paint gun with the full colour wheel, RGB/HEX, drag paint, erase and eyedropper. Q: colours. Matching ColourForge.dll and SM-DLL-Injector required. Setup: https://github.com/Gavthestig/GetGavD#how-to-download-and-enable . Challenge mode requires the complete companion installer. Windows x64 game 1.0.6.889 / 1.0.7a.903 only; in-game verification of this model change pending.",
   "fileId": 3834631547,
   "localId": "0aed90da-1e8e-49b7-a2bb-1a036410b85c",
   "name": "ColourForge",

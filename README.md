@@ -2,21 +2,21 @@
 
 Scrap Mechanic mods — **made by GetGavd**.
 
-[![ColourForge](https://img.shields.io/badge/ColourForge-1.1_preview-22c5bd)](https://github.com/Gavthestig/GetGavD/releases/tag/colourforge-v1.1)
+[![ColourForge](https://img.shields.io/badge/ColourForge-1.2-22c5bd)](https://github.com/Gavthestig/GetGavD/releases/tag/colourforge-v1.2)
 ![Platform](https://img.shields.io/badge/platform-Windows_x64-357abd)
 
-<p align="center"><img src="Images/ColourForge.png" width="480" alt="ColourForge custom paint gun"></p>
+<p align="center"><img src="Images/ColourForge.png" width="480" alt="ColourForge original game paint gun"></p>
 
 ## Mods & downloads
 
 | Mod | What it does | Download |
 | --- | --- | --- |
-| **[ColourForge](Docs/ColourForge.md)** | Custom paint gun, full colour wheel, RGB/HEX controls, drag painting, erase and eyedropper | **[Complete installer ZIP](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-1.1-Share.zip)** · [Release notes](https://github.com/Gavthestig/GetGavD/releases/tag/colourforge-v1.1) |
+| **[ColourForge](Docs/ColourForge.md)** | Original game paint gun, full colour wheel, RGB/HEX controls, drag painting, erase and eyedropper | **[Complete installer ZIP](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge-1.2-Share.zip)** · [Release notes](https://github.com/Gavthestig/GetGavD/releases/tag/colourforge-v1.2) |
 | **[Paintball & Grenades](Docs/Paintball.md)** | Coloured paintballs, temporary splats, paint grenades and coloured smoke | **[Testing ZIP](https://github.com/Gavthestig/GetGavD/releases/download/paintball-v0.8-test/ColourForge-Paintball-and-Grenades-test.zip)** · [Release notes](https://github.com/Gavthestig/GetGavD/releases/tag/paintball-v0.8-test) |
 
 ## ColourForge
 
-Pick a colour and paint with your own gun. Changes apply live; no “Ready to paint” confirmation is needed. Gun accents follow your selected colour.
+Pick a colour and paint with the original Scrap Mechanic paint gun. Changes apply live; no “Ready to paint” confirmation is needed. Gun accents follow your selected colour.
 
 ![ColourForge colour picker](Images/ColourForge-Picker.jpg)
 
@@ -24,7 +24,7 @@ Pick a colour and paint with your own gun. Changes apply live; no “Ready to pa
 
 ## How to download and enable
 
-**Icon fix available:** if your inventory icons became mixed up after installing ColourForge, [download the corrected complete installer](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-1.1-Share.zip) again. Close the game, extract the ZIP and run **Install.cmd**. This update fixes the installer; replacing the DLL alone does not repair the icon sheet. [Fix details](CHANGELOG.md).
+**Icon fix available:** if your inventory icons became mixed up after installing ColourForge, [download the corrected complete installer](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge-1.2-Share.zip) again. Close the game, extract the ZIP and run **Install.cmd**. This update fixes the installer; replacing the DLL alone does not repair the icon sheet. [Fix details](CHANGELOG.md).
 
 **New here? Follow steps 1–6 below for the Workshop version in Creative mode.** You need three things: the Workshop mod, ColourForge.dll, and the injector that loads the DLL. You do not need Visual Studio or any coding knowledge.
 
@@ -48,7 +48,7 @@ Open your **Downloads** folder, double-click **DLL-Injector-Installer.exe**, and
 
 ### 4. Download ColourForge.dll
 
-Click **[Download ColourForge.dll](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge.dll)**. Leave it in your Downloads folder for the next step. **Do not double-click the DLL** — it is a file to put in the game folder, not a program to open.
+Click **[Download ColourForge.dll](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge.dll)**. Leave it in your Downloads folder for the next step. **Do not double-click the DLL** — it is a file to put in the game folder, not a program to open.
 
 ### 5. Put the DLL in the game folder
 
@@ -84,7 +84,7 @@ Use the complete installer below instead of the Workshop steps above. It install
 <summary>Automatic setup — click here for the steps</summary>
 
 1. Close Scrap Mechanic.
-2. Click **[Download ColourForge-1.1-Share.zip](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-1.1-Share.zip)**.
+2. Click **[Download ColourForge-1.2-Share.zip](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge-1.2-Share.zip)**.
 3. In Downloads, right-click the ZIP and choose **Extract All**, then **Extract**.
 4. Open the extracted folder and double-click **Install.cmd**. Do not run it from inside the ZIP.
 5. Follow the prompts. Setup finds your Steam game folder or asks you to select it. Internet access is needed to obtain the injector if missing.
@@ -102,7 +102,7 @@ Keep the backup folder. To remove this setup, close the game and run **Uninstall
 Use this option only if you already installed the complete ColourForge companion setup. A DLL alone does not include the gun, GUI, icons or Challenge registration.
 
 1. Close Scrap Mechanic.
-2. Download [ColourForge.dll](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge.dll) or [ColourForge-DLL.zip](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-DLL.zip).
+2. Download [ColourForge.dll](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge.dll) or [ColourForge-DLL.zip](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge-DLL.zip).
 3. Replace **ColourForge.dll** in `Scrap Mechanic/Release/DLLModules`.
 4. If the older **Native-Drag-Bridge.dll** is present, move it out of `DLLModules` and keep a backup. Do not load both modules together.
 5. Start the game normally. Your existing SM-DLL-Injector installation loads the module.

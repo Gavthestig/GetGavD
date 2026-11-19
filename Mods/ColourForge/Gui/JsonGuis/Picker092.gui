@@ -1348,7 +1348,7 @@
       "width": 58,
       "height": 50,
       "Childs": [],
-      "ImageTexture": "$CONTENT_DATA/Gui/Textures/VaporatorIcon512.png",
+      "ImageTexture": "$CONTENT_DATA/Gui/Textures/OriginalPaintGunIcon.png",
       "NeedMouse": false,
       "NeedKey": false
     },

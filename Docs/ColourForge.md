@@ -1,6 +1,6 @@
-# ColourForge 1.1 preview
+# ColourForge 1.2 — original game gun
 
-[Download the complete installer](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.1/ColourForge-1.1-Share.zip) · [Release files](https://github.com/Gavthestig/GetGavD/releases/tag/colourforge-v1.1)
+[Download the complete installer](https://github.com/Gavthestig/GetGavD/releases/download/colourforge-v1.2/ColourForge-1.2-Share.zip) · [Release files](https://github.com/Gavthestig/GetGavD/releases/tag/colourforge-v1.2)
 
 Extract the complete ZIP, close the game and run Install.cmd. Do not run the script directly from inside the ZIP. The installer requires Windows x64 and the exact supported game executable: 1.0.6.889 or 1.0.7a.903. It downloads the official QuestionableM SM-DLL-Injector v1.8 if necessary, verifies its checksum, installs ColourForge.dll in Release/DLLModules, and registers the tool and assets. It archives the old Native-Drag-Bridge.dll to prevent duplicate loading.
 
